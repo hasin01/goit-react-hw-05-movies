@@ -20,7 +20,7 @@ export const api = {
             return data;
         } catch (error) {
             console.log(error);
-            // location.replace('../404.html');
+    
         }
     },
     getSaughtMovies: async (searchQuery) => {
@@ -30,7 +30,7 @@ export const api = {
             return data;
         } catch (error) {
             console.log(error);
-            // location.replace('../404.html');
+    
         }
     },
     getMovieDetails: async (movieId) => {
@@ -40,7 +40,7 @@ export const api = {
             return data;
         } catch (error) {
             console.log(error);
-            // location.replace('../404.html');
+          
         }
     },
     getCredits: async (movieId) => {
@@ -50,7 +50,7 @@ export const api = {
             return data;
         } catch (error) {
             console.log(error);
-            // location.replace('../404.html');
+      
         }
     },
     getReviews: async (movieId) => {
@@ -60,7 +60,7 @@ export const api = {
             return data;
         } catch (error) {
             console.log(error);
-            // location.replace('../404.html');
+
         }
     }
 }
